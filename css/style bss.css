@@ -1,0 +1,100 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.wrapper
+{
+	width:1450px;
+	margin:auto;
+}
+header
+{
+	background-image:url(../bg.jpg);
+	background-size:cover;
+	-webkit-background-size:center;
+	height:93vh;
+	background-position:center center;
+	position:relative;
+}
+.area
+{
+	float:right;
+	list-style:none;
+	margin-top:30px;
+}
+.area li
+{
+	display:inline-block;
+}
+.area li a
+{
+	color:darkblue;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family:poppins;
+	font-size:20px;
+	border:solid;
+}
+.area li a:hover
+{
+	background:rgb(2, 13, 104);
+	color:rgb(255, 255, 255);
+}
+.logo img
+{
+	width:100px;
+	float:left;
+	height:auto;
+}
+.welcome-text
+{
+	position: absolute;
+    	width:1250px;
+    	height:600px;
+    	margin-top: 100px;
+    	margin-left:150px;
+    	text-align: center;
+	font-family:georgia;
+}
+.welcome-text h1
+{
+	text-align:center;
+	color:darkblue;
+	text-transform:uppercase;
+	font-size:70px;
+	font-weight:bold;
+	text-shadow:3px 3px #fff;
+	border:5px white;
+	font-style:oblique;
+}
+.welcome-text h2
+{
+	text-align:center;
+	color:darkblue;
+	text-transform:uppercase;
+	font-size:50px;
+	text-shadow:3px 3px #fff;
+	border:5px white;
+	font-style:oblique;
+}
+.img
+{
+	margin-left:90px;
+	margin-right:90px;
+	border:4px solid darkblue;
+}
+.btnn
+{
+	margin-left:105px;
+	margin-right:95px;
+	font-family:poppins;
+	font-size:30px;
+	color:darkblue;
+}
+a:hover
+{
+	background:darkblue;
+	color:white;
+}
+
